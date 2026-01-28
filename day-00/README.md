@@ -28,3 +28,11 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 Here is the video for you to go through and learn:
 
 [![day-00](./banner.jpg)](https://www.youtube.com/watch?v=OWi31QoHqNk&pp=0gcJCckJAYcqIYzv "Video")
+
+My Notes : 
+
+1. React is Declarative
+2. You tell react what to do.
+3. In React , you break a big component into multiple small components and create a component tree.
+4. React is a user interface library. Other things needed for building an app, we use 3rd party libraries for that.
+5. Detect Code Smell
