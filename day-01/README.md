@@ -35,3 +35,21 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 Here is the video for you to go through and learn:
 
 [![day-01](./banner.jpg)](https://youtu.be/1UHbhikwg-s "Video")
+
+My Notes:
+
+1. Container-Presenter Pattern also called Smart-Dumb Components Pattern
+2. Identify code smells, implement the pattern , real-world use case and potential pitfall
+3. Don't do anti-patterns
+4. In (day-01/container-presenter-pattern/src/messy-way/components/UserProfile.jsx) following code smell 
+   a. SRP is violated. It manages multiple states, multiple api calls. It also handles form logic.
+   b. Lack of reusability. If Error happens elsewhere it cannot be reused. Same thing for loading.
+   c. Poor Testability
+   d. Difficult to maintain
+5. If you have messy component, create a container component which would fetch the data and maintain the data.
+6. Once container has got the data, now it is passed to presenter component and it renders. Presenter component might grows bigger. 
+   Break the presenter component into multiple component.
+7. Form Data Handling can be done by presenter component.
+8. Use the above pattern for data heavy component, eg. user dashboard, catalog page, real time analytics etc. Form Heavy Component also can use above pattern. Separate data layer with render elements.
+9. Don't overcomplicate and overengineer simple component. 
+10. If you get to pass props through more than 3 layers, the above pattern can't be used. For those things, we have more advance pattern.
