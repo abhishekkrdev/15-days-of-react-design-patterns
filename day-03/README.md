@@ -21,7 +21,7 @@ Your support means a lot.
 - Please SUBSCRIBE to [tapaScript YouTube Channel](https://youtube.com/tapasadhikary) if not done already. A Big Thank You!
 - Liked my work? It takes months of hard work to create quality content and present it to you. You can show your support to me with a STAR(⭐) to this repository.
 
-    > Many Thanks to all the `Stargazers` who have supported this project with stars(⭐)
+  > Many Thanks to all the `Stargazers` who have supported this project with stars(⭐)
 
 ### 🤝 Sponsor My Work
 
@@ -32,3 +32,30 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 Here is the video for you to go through and learn:
 
 [![day-03](./banner.jpg)](https://youtu.be/LglWulOqh6k "Video")
+
+My Notes:
+
+We will learn
+
+- Bloated components with prop soup
+- The compound component pattern
+- Use Cases
+- Pitfalls and Best Practices
+
+- Components like Modal violates separation of concerns like layout and variation
+- Testing Modal component would become difficult.
+- Introducing every variation for a component makes code smell.
+
+  ![Compound Logic](./Modal1.png)
+
+Use Cases
+
+- Dropdown , Modal, Accordion, Table
+- Any component where layout and nesting matter, compound pattern is a must.
+- Material UI , shadcn ui all use these pattern
+
+Pitfalls
+
+- Subcomponents should be made in view from component
+- Don't allow export of subcomponent from file
+- In making your own design system, make use of compound components pattern
