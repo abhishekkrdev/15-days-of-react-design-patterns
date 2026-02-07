@@ -4,6 +4,7 @@
 // import MouseTracker from "./with-pattern/MouseTracker";
 
 import MouseTrackerWithChildren from "./with-pattern/using-children/MouseTrackerWithChildren";
+import UsingToggle from "./with-pattern/using-render-props/UsingToggle";
 
 function App() {
     return (
@@ -34,7 +35,7 @@ function App() {
                     </p>
                 )}
             </MouseTrackerWithChildren>
-            
+
             <MouseTrackerWithChildren>
                 {({ x, y }) => (
                     <p>
@@ -42,6 +43,9 @@ function App() {
                     </p>
                 )}
             </MouseTrackerWithChildren>
+            <div className="mt-6">
+                <UsingToggle />
+            </div>
         </div>
     );
 }
