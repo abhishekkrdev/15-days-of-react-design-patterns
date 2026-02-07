@@ -22,7 +22,7 @@ Your support means a lot.
 - Please SUBSCRIBE to [tapaScript YouTube Channel](https://youtube.com/tapasadhikary) if not done already. A Big Thank You!
 - Liked my work? It takes months of hard work to create quality content and present it to you. You can show your support to me with a STAR(⭐) to this repository.
 
-    > Many Thanks to all the `Stargazers` who have supported this project with stars(⭐)
+  > Many Thanks to all the `Stargazers` who have supported this project with stars(⭐)
 
 ### 🤝 Sponsor My Work
 
@@ -33,3 +33,8 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 Here is the video for you to go through and learn:
 
 [![day-04](./banner.jpg)](https://youtu.be/tIdJj0n1mg4 "Video")
+
+NOTES:
+
+1. We copy logic and duplicate logic many times , like for tracking mouse movements, data fetching etc.
+2. Render Props Pattern was used a lot before hook were used.
